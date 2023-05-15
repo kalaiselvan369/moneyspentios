@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="SnO-Jl-nMz">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--welcome-->
+        <scene sceneID="5rD-cd-Usu">
+            <objects>
+                <viewControllerPlaceholder storyboardName="OnboardingStoryboard" referencedIdentifier="welcome" id="E3t-l8-CgW" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="znI-Zp-Xae"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cGO-Ja-I8u" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-697" y="1426"/>
+        </scene>
+        <!--SetBuget-->
+        <scene sceneID="8fH-xp-JYE">
+            <objects>
+                <viewController id="Gvd-tZ-fos" userLabel="SetBuget" customClass="SetBudgetViewController" customModule="moneyspentiOS" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="2gF-3H-Uq5">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="MXy-BD-e4L"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Budget" image="WalletIcon" id="IKd-93-L5c"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Xtk-0s-aAa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-64" y="720"/>
+        </scene>
+        <!--Profile-->
+        <scene sceneID="pIM-aa-mTa">
+            <objects>
+                <viewController id="dFR-aZ-0nd" userLabel="Profile" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="XUg-L5-PnY">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="mQu-bX-5SA"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" image="ProfileIcon" id="kU2-9a-xMd"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dpO-xG-r6n" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1322" y="720"/>
+        </scene>
+        <!--AddExpense-->
+        <scene sceneID="p64-o6-wac">
+            <objects>
+                <viewController id="csU-fj-sbE" userLabel="AddExpense" customClass="AddExpenseViewController" customModule="moneyspentiOS" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Css-ec-Njq">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="yvv-WC-sAr"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Expense" image="ExpenseIcon" id="pXW-CM-ZXh"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xyr-gm-ZP3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="613" y="720"/>
+        </scene>
+        <!--Home-->
+        <scene sceneID="chC-4z-NFE">
+            <objects>
+                <viewController id="Sfr-1M-E3l" userLabel="Home" customClass="HomeViewController" customModule="moneyspentiOS" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kNA-gD-gHu">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KDe-UB-fKl">
+                                <rect key="frame" x="130" y="412" width="154" height="73"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Button"/>
+                                <connections>
+                                    <action selector="buttonTapped:" destination="Sfr-1M-E3l" eventType="touchUpInside" id="i4d-kh-ikr"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="8g2-ez-d3C"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Home" id="4Mq-Vd-wRA">
+                        <imageReference key="image" image="HomeIcon" symbolScale="medium"/>
+                    </tabBarItem>
+                    <connections>
+                        <outlet property="tabBarItem" destination="4Mq-Vd-wRA" id="FIY-Gk-ZD0"/>
+                        <segue destination="E3t-l8-CgW" kind="presentation" identifier="MainToOnboarding" modalPresentationStyle="fullScreen" id="e1w-I7-G7n"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zTK-HN-p0T" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-720" y="720"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="PCk-ff-VZW">
+            <objects>
+                <tabBarController id="SnO-Jl-nMz" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="AIk-nt-VkN">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="selectedImageTintColor" red="0.084613732993602753" green="0.37449026107788086" blue="0.30041605234146118" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="Sfr-1M-E3l" kind="relationship" relationship="viewControllers" id="u7N-tB-SsI"/>
+                        <segue destination="Gvd-tZ-fos" kind="relationship" relationship="viewControllers" id="h4u-fe-lCW"/>
+                        <segue destination="csU-fj-sbE" kind="relationship" relationship="viewControllers" id="ttM-wN-Gll"/>
+                        <segue destination="dFR-aZ-0nd" kind="relationship" relationship="viewControllers" id="rpN-GV-nag"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zkJ-am-nht" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-212" y="-220"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ExpenseIcon" width="25" height="25"/>
+        <image name="HomeIcon" width="25" height="25"/>
+        <image name="ProfileIcon" width="25" height="25"/>
+        <image name="WalletIcon" width="25" height="25"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
