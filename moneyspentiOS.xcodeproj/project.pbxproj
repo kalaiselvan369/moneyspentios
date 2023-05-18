@@ -26,8 +26,10 @@
 		FB66E4F92A02733F0031AF3B /* WelcomeUsecase.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB66E4F82A02733F0031AF3B /* WelcomeUsecase.swift */; };
 		FB8FBB972A0236C900E8D745 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8FBB962A0236C900E8D745 /* WelcomeViewController.swift */; };
 		FB8FBB992A0236D800E8D745 /* SetCurrencyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8FBB982A0236D800E8D745 /* SetCurrencyViewController.swift */; };
-		FB8FBB9B2A0236F600E8D745 /* SetAppPinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8FBB9A2A0236F600E8D745 /* SetAppPinViewController.swift */; };
 		FB8FBB9F2A0237F300E8D745 /* OnboardingStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB8FBB9E2A0237F300E8D745 /* OnboardingStoryboard.storyboard */; };
+		FBA2F23C2A13ABC700E4B368 /* CurrencyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA2F23A2A13ABC700E4B368 /* CurrencyTableViewCell.swift */; };
+		FBA2F23D2A13ABC700E4B368 /* CurrencyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBA2F23B2A13ABC700E4B368 /* CurrencyTableViewCell.xib */; };
+		FBA2F23F2A13BC7700E4B368 /* SetCurrencyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA2F23E2A13BC7700E4B368 /* SetCurrencyViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,8 +79,10 @@
 		FB66E4F82A02733F0031AF3B /* WelcomeUsecase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeUsecase.swift; sourceTree = "<group>"; };
 		FB8FBB962A0236C900E8D745 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		FB8FBB982A0236D800E8D745 /* SetCurrencyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetCurrencyViewController.swift; sourceTree = "<group>"; };
-		FB8FBB9A2A0236F600E8D745 /* SetAppPinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetAppPinViewController.swift; sourceTree = "<group>"; };
 		FB8FBB9E2A0237F300E8D745 /* OnboardingStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OnboardingStoryboard.storyboard; sourceTree = "<group>"; };
+		FBA2F23A2A13ABC700E4B368 /* CurrencyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyTableViewCell.swift; sourceTree = "<group>"; };
+		FBA2F23B2A13ABC700E4B368 /* CurrencyTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CurrencyTableViewCell.xib; sourceTree = "<group>"; };
+		FBA2F23E2A13BC7700E4B368 /* SetCurrencyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetCurrencyViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -190,10 +194,12 @@
 			children = (
 				FB8FBB962A0236C900E8D745 /* WelcomeViewController.swift */,
 				FB8FBB982A0236D800E8D745 /* SetCurrencyViewController.swift */,
-				FB8FBB9A2A0236F600E8D745 /* SetAppPinViewController.swift */,
 				FB8FBB9E2A0237F300E8D745 /* OnboardingStoryboard.storyboard */,
 				FB66E4F62A0273320031AF3B /* WelcomeViewModel.swift */,
 				FB66E4F82A02733F0031AF3B /* WelcomeUsecase.swift */,
+				FBA2F23A2A13ABC700E4B368 /* CurrencyTableViewCell.swift */,
+				FBA2F23B2A13ABC700E4B368 /* CurrencyTableViewCell.xib */,
+				FBA2F23E2A13BC7700E4B368 /* SetCurrencyViewModel.swift */,
 			);
 			path = onboarding;
 			sourceTree = "<group>";
@@ -320,6 +326,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB059C132A0180630053225F /* LaunchScreen.storyboard in Resources */,
+				FBA2F23D2A13ABC700E4B368 /* CurrencyTableViewCell.xib in Resources */,
 				FB059C102A0180630053225F /* Assets.xcassets in Resources */,
 				FB66E4F52A026CCA0031AF3B /* Main.storyboard in Resources */,
 				FB8FBB9F2A0237F300E8D745 /* OnboardingStoryboard.storyboard in Resources */,
@@ -450,14 +457,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB8FBB9B2A0236F600E8D745 /* SetAppPinViewController.swift in Sources */,
 				FB8FBB992A0236D800E8D745 /* SetCurrencyViewController.swift in Sources */,
 				FB51115E2A1277C3005EE988 /* SetBudgetViewController.swift in Sources */,
 				FB8FBB972A0236C900E8D745 /* WelcomeViewController.swift in Sources */,
+				FBA2F23C2A13ABC700E4B368 /* CurrencyTableViewCell.swift in Sources */,
 				FB66E4F72A0273320031AF3B /* WelcomeViewModel.swift in Sources */,
 				FB66E4F92A02733F0031AF3B /* WelcomeUsecase.swift in Sources */,
 				FB5111622A1277DC005EE988 /* ProfileViewController.swift in Sources */,
 				FB059C072A0180630053225F /* AppDelegate.swift in Sources */,
+				FBA2F23F2A13BC7700E4B368 /* SetCurrencyViewModel.swift in Sources */,
 				FB5111602A1277D1005EE988 /* AddExpenseViewController.swift in Sources */,
 				FB059C092A0180630053225F /* SceneDelegate.swift in Sources */,
 				FB66E4F32A026CBF0031AF3B /* HomeViewController.swift in Sources */,

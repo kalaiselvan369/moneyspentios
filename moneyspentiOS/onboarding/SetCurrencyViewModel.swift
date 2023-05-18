@@ -1,25 +1,24 @@
 //
-//  WelcomeViewModel.swift
+//  SetCurrencyViewModel.swift
 //  moneyspentiOS
 //
-//  Created by Kalaiselvan C on 03/05/23.
+//  Created by Kalaiselvan C on 16/05/23.
 //
 
 import Foundation
 import RxSwift
 import RxRelay
 
-class WelcomeViewModel {
+class SetCurrencyViewModel {
+    let eventRelay = PublishRelay<SetCurrencyScreenEvents>()
     
-    let eventRelay = PublishRelay<WelcomeScreenEvents>()
-    
-    func saveNameAsCompleteable(name: String) {
+    func saveCurrencyAsCompleteable(name: String) {
         _ = saveName(name: name)
             .subscribe(onCompleted: {
-                self.eventRelay.accept(WelcomeScreenEvents.success)
+                self.eventRelay.accept(SetCurrencyScreenEvents.success)
             }, onError: { e in
                 print(e)
-                self.eventRelay.accept(WelcomeScreenEvents.failure)
+                self.eventRelay.accept(SetCurrencyScreenEvents.failure)
             }, onDisposed: {
                 
             })
@@ -27,7 +26,7 @@ class WelcomeViewModel {
     
     private func saveName(name: String) -> Completable {
         return Completable.create { completable in
-            UserDefaults.standard.set(name, forKey: "user_name")
+            UserDefaults.standard.set(name, forKey: "user_currency")
             completable(.completed)
             return Disposables.create()
         }
@@ -35,9 +34,7 @@ class WelcomeViewModel {
     }
 }
 
-enum WelcomeScreenEvents{
+enum SetCurrencyScreenEvents {
     case success
     case failure
 }
-
-
