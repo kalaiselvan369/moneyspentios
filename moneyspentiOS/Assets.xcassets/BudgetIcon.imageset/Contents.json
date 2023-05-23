@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "icons8-tax-100.png",
+      "filename" : "budgetnew.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "icons8-tax-100@2x.png",
+      "filename" : "budgetnew@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "icons8-tax-100@3x.png",
+      "filename" : "budgetnew@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }
@@ -21,7 +21,6 @@
     "version" : 1
   },
   "properties" : {
-    "preserves-vector-representation" : true,
-    "template-rendering-intent" : "template"
+    "template-rendering-intent" : "original"
   }
 }
