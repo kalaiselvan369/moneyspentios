@@ -9,21 +9,21 @@ import UIKit
 
 class ProfileViewController: UIViewController {
 
+    @IBOutlet weak var insightView: UIView!
+    @IBOutlet weak var expenseView: UIView!
+    @IBOutlet weak var currencyView: UIView!
+    @IBOutlet weak var categoryView: UIView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
+        categoryView.layer.borderWidth = 0.3
+        categoryView.layer.cornerRadius = 8.0
+        insightView.layer.borderWidth = 0.3
+        insightView.layer.cornerRadius = 8.0
+        expenseView.layer.borderWidth = 0.3
+        expenseView.layer.cornerRadius = 8.0
+        currencyView.layer.borderWidth = 0.3
+        currencyView.layer.cornerRadius = 8.0
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }
