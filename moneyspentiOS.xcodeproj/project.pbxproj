@@ -20,6 +20,9 @@
 		FB51115E2A1277C3005EE988 /* SetBudgetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB51115D2A1277C3005EE988 /* SetBudgetViewController.swift */; };
 		FB5111602A1277D1005EE988 /* AddExpenseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB51115F2A1277D1005EE988 /* AddExpenseViewController.swift */; };
 		FB5111622A1277DC005EE988 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5111612A1277DC005EE988 /* ProfileViewController.swift */; };
+		FB59569E2A177B0D0097A5B2 /* ExpenseCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FB59569C2A177B0C0097A5B2 /* ExpenseCoreData.xcdatamodeld */; };
+		FB5956A52A177B9C0097A5B2 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5956A42A177B9C0097A5B2 /* CoreDataStack.swift */; };
+		FB5956A72A179CF20097A5B2 /* AddExpenseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5956A62A179CF20097A5B2 /* AddExpenseViewModel.swift */; };
 		FB66E4F32A026CBF0031AF3B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB66E4F22A026CBF0031AF3B /* HomeViewController.swift */; };
 		FB66E4F52A026CCA0031AF3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB66E4F42A026CCA0031AF3B /* Main.storyboard */; };
 		FB66E4F72A0273320031AF3B /* WelcomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB66E4F62A0273320031AF3B /* WelcomeViewModel.swift */; };
@@ -30,6 +33,8 @@
 		FBA2F23C2A13ABC700E4B368 /* CurrencyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA2F23A2A13ABC700E4B368 /* CurrencyTableViewCell.swift */; };
 		FBA2F23D2A13ABC700E4B368 /* CurrencyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBA2F23B2A13ABC700E4B368 /* CurrencyTableViewCell.xib */; };
 		FBA2F23F2A13BC7700E4B368 /* SetCurrencyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA2F23E2A13BC7700E4B368 /* SetCurrencyViewModel.swift */; };
+		FBF9B03D2A1CCBBC00EF1AF9 /* ViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF9B03C2A1CCBBC00EF1AF9 /* ViewModelType.swift */; };
+		FBF9B03F2A1CD5F600EF1AF9 /* SetBudgetViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF9B03E2A1CD5F600EF1AF9 /* SetBudgetViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +78,9 @@
 		FB51115D2A1277C3005EE988 /* SetBudgetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetBudgetViewController.swift; sourceTree = "<group>"; };
 		FB51115F2A1277D1005EE988 /* AddExpenseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddExpenseViewController.swift; sourceTree = "<group>"; };
 		FB5111612A1277DC005EE988 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		FB59569D2A177B0C0097A5B2 /* ExpenseCoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ExpenseCoreData.xcdatamodel; sourceTree = "<group>"; };
+		FB5956A42A177B9C0097A5B2 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		FB5956A62A179CF20097A5B2 /* AddExpenseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddExpenseViewModel.swift; sourceTree = "<group>"; };
 		FB66E4F22A026CBF0031AF3B /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		FB66E4F42A026CCA0031AF3B /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		FB66E4F62A0273320031AF3B /* WelcomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewModel.swift; sourceTree = "<group>"; };
@@ -83,6 +91,8 @@
 		FBA2F23A2A13ABC700E4B368 /* CurrencyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyTableViewCell.swift; sourceTree = "<group>"; };
 		FBA2F23B2A13ABC700E4B368 /* CurrencyTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CurrencyTableViewCell.xib; sourceTree = "<group>"; };
 		FBA2F23E2A13BC7700E4B368 /* SetCurrencyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetCurrencyViewModel.swift; sourceTree = "<group>"; };
+		FBF9B03C2A1CCBBC00EF1AF9 /* ViewModelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelType.swift; sourceTree = "<group>"; };
+		FBF9B03E2A1CD5F600EF1AF9 /* SetBudgetViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetBudgetViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,6 +171,8 @@
 		FB059C052A0180630053225F /* moneyspentiOS */ = {
 			isa = PBXGroup;
 			children = (
+				FBF9B03B2A1CCBA900EF1AF9 /* common */,
+				FB5956A32A177B7D0097A5B2 /* database */,
 				FB8FBBA02A025F4F00E8D745 /* home */,
 				FB8FBB952A02363300E8D745 /* onboarding */,
 				FB059C062A0180630053225F /* AppDelegate.swift */,
@@ -189,6 +201,15 @@
 			path = moneyspentiOSUITests;
 			sourceTree = "<group>";
 		};
+		FB5956A32A177B7D0097A5B2 /* database */ = {
+			isa = PBXGroup;
+			children = (
+				FB59569C2A177B0C0097A5B2 /* ExpenseCoreData.xcdatamodeld */,
+				FB5956A42A177B9C0097A5B2 /* CoreDataStack.swift */,
+			);
+			path = database;
+			sourceTree = "<group>";
+		};
 		FB8FBB952A02363300E8D745 /* onboarding */ = {
 			isa = PBXGroup;
 			children = (
@@ -212,8 +233,18 @@
 				FB51115D2A1277C3005EE988 /* SetBudgetViewController.swift */,
 				FB51115F2A1277D1005EE988 /* AddExpenseViewController.swift */,
 				FB5111612A1277DC005EE988 /* ProfileViewController.swift */,
+				FB5956A62A179CF20097A5B2 /* AddExpenseViewModel.swift */,
+				FBF9B03E2A1CD5F600EF1AF9 /* SetBudgetViewModel.swift */,
 			);
 			path = home;
+			sourceTree = "<group>";
+		};
+		FBF9B03B2A1CCBA900EF1AF9 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				FBF9B03C2A1CCBBC00EF1AF9 /* ViewModelType.swift */,
+			);
+			path = common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -457,15 +488,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB5956A72A179CF20097A5B2 /* AddExpenseViewModel.swift in Sources */,
 				FB8FBB992A0236D800E8D745 /* SetCurrencyViewController.swift in Sources */,
+				FBF9B03F2A1CD5F600EF1AF9 /* SetBudgetViewModel.swift in Sources */,
 				FB51115E2A1277C3005EE988 /* SetBudgetViewController.swift in Sources */,
 				FB8FBB972A0236C900E8D745 /* WelcomeViewController.swift in Sources */,
+				FB59569E2A177B0D0097A5B2 /* ExpenseCoreData.xcdatamodeld in Sources */,
 				FBA2F23C2A13ABC700E4B368 /* CurrencyTableViewCell.swift in Sources */,
 				FB66E4F72A0273320031AF3B /* WelcomeViewModel.swift in Sources */,
+				FB5956A52A177B9C0097A5B2 /* CoreDataStack.swift in Sources */,
 				FB66E4F92A02733F0031AF3B /* WelcomeUsecase.swift in Sources */,
 				FB5111622A1277DC005EE988 /* ProfileViewController.swift in Sources */,
 				FB059C072A0180630053225F /* AppDelegate.swift in Sources */,
 				FBA2F23F2A13BC7700E4B368 /* SetCurrencyViewModel.swift in Sources */,
+				FBF9B03D2A1CCBBC00EF1AF9 /* ViewModelType.swift in Sources */,
 				FB5111602A1277D1005EE988 /* AddExpenseViewController.swift in Sources */,
 				FB059C092A0180630053225F /* SceneDelegate.swift in Sources */,
 				FB66E4F32A026CBF0031AF3B /* HomeViewController.swift in Sources */,
@@ -802,6 +838,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FB59569C2A177B0C0097A5B2 /* ExpenseCoreData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FB59569D2A177B0C0097A5B2 /* ExpenseCoreData.xcdatamodel */,
+			);
+			currentVersion = FB59569D2A177B0C0097A5B2 /* ExpenseCoreData.xcdatamodel */;
+			path = ExpenseCoreData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = FB059BFB2A0180630053225F /* Project object */;
 }

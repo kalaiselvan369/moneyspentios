@@ -45,7 +45,7 @@
                                                     <constraint firstAttribute="height" constant="56" id="lbE-Ve-BJZ"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                                <textInputTraits key="textInputTraits"/>
+                                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                                             </textField>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Allocate your budget for current month. You can edit later if needed." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gam-XW-YiP">
                                                 <rect key="frame" x="24" y="129.5" width="366" height="86"/>
@@ -101,6 +101,10 @@
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Budget" image="WalletIcon" id="IKd-93-L5c"/>
+                    <connections>
+                        <outlet property="amount" destination="KD8-sq-06L" id="bVE-Zv-s1G"/>
+                        <outlet property="saveButton" destination="3xm-dk-ElL" id="1YA-g6-JAS"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Xtk-0s-aAa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -180,7 +184,7 @@
                                                     <constraint firstAttribute="height" constant="56" id="yag-n9-zkW"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
-                                                <textInputTraits key="textInputTraits"/>
+                                                <textInputTraits key="textInputTraits" keyboardType="decimalPad" enablesReturnKeyAutomatically="YES"/>
                                             </textField>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -232,6 +236,12 @@
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Expense" image="ExpenseIcon" id="pXW-CM-ZXh"/>
+                    <connections>
+                        <outlet property="amountInputField" destination="ARn-su-JKw" id="gp4-a8-STl"/>
+                        <outlet property="categoryPicker" destination="LuL-77-xD0" id="DW6-sy-W9B"/>
+                        <outlet property="datePicker" destination="wXi-TR-nyf" id="WQY-5w-dvo"/>
+                        <outlet property="saveExpenseButton" destination="hrk-SU-4mk" id="SnZ-Co-hgl"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xyr-gm-ZP3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
