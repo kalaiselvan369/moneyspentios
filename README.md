@@ -3,4 +3,7 @@ iOS app for tracking every day expense
 
 Screenshots
 
-![alt text](docs/Simulator Screen Shot - iPhone 11 - 2023-05-25 at 19.23.08.png)
+![alt text](docs/home.png)
+![alt text](docs/budget.png)
+![alt text](docs/expense.png)
+![alt text](docs/profile.png)
