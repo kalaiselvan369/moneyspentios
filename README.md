@@ -1,13 +1,7 @@
 # moneyspentios
 iOS app for tracking every day expense
 
-Screenshots
+Screenshot
 
-![alt text](docs/home.png)
-
-![alt text](docs/budget.png)
-
-![alt text](docs/expense.png)
-
-![alt text](docs/profile.png)
+![alt text](docs/group.jpeg)
 
